@@ -163,6 +163,7 @@ class SignalGenerator
 		template<class SignalClass>
 		inline void replaceSignal
 		(
+			const std::size_t & i,
 			const SignalClass & signal
 		)
 		{
