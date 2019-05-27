@@ -26,6 +26,11 @@ class SignalGenerator
 				delete i;
 			}
 		}
+	
+		const auto & signalVector() const
+		{
+			return _signals;
+		}
 
 
 		inline double maxPeriodTime()
