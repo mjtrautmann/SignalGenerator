@@ -27,7 +27,7 @@ class SignalGenerator
 			}
 		}
 	
-		const auto & signalVector() const
+		const std::vector<SignalBase*> & signalVector() const
 		{
 			return _signals;
 		}
